@@ -1,9 +1,7 @@
-climatechangeviz
+climatechange
 ================
 
-visualizations of changes in the climate/environment.. 
-
-Not really..
+Sentiment analysis on tweets about/related to climate change
 
 
 
