@@ -114,7 +114,7 @@ def twitterToMongo(url):
     mongo_insert(metadata,'twitter','search_metadata',False)
     mongo_insert(statuses,'twitter','statuses',False)
 
-
+##KARTHIK: This is inefficient, need to change this.
 #insert twitter result buffer into mongo
 def mongo_insert(docs,dbname,collectionname,dropcoll):
     connection = pymongo.MongoClient('localhost',27017)
